@@ -9,7 +9,7 @@ import re
 def get_results(dataset="FashionMNIST", algorithm="FedAvg", epsilon=0.1, power=2e-3, r=0.9):
 
     base_path = "./results_fig6/"
-    base_filename = f"summary_{dataset}_{algorithm}_epsilon_{epsilon}_Power_{power}_r_{str(r)}"
+    base_filename = f"summary_{dataset}_{algorithm}_epsilon_{epsilon}_power_{power}_r_{str(r)}"
 
     # File path
     file_path = os.path.join(base_path, f"{base_filename}.txt")

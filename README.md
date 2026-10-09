@@ -6,6 +6,7 @@ If you use the code, please cite our paper:
 > [[1] Liang, Hao and Wen, Haifeng and Wu, Kaishun and Letaief, Khaled B. and Xing, Hong, "Differential Privacy as a Perk: Federated Learning over Multiple-Access Fading Channels with a Multi-Antenna Base Station", *IEEE Journal on Selected Areas in Communications (JSAC)*, 2026.](https://arxiv.org/abs/2510.23463 "https://arxiv.org/abs/2510.23463")
 
 
+
 ## A Fast Reproduction Guide
 
 If you just want to reproduce the figures in our paper, navigate to the `Plot_figures` folder and run the corresponding plotting script (e.g., `plot_figure_x.py`). This will generate the x-th figure demonstrated in the paper.
@@ -74,6 +75,8 @@ Supported algorithm names in the experimental code include `FedAvg`, `FedAvg_Cli
 ## Experimental Outputs
 
 After an experiment finishes, results are saved in the `results` and `result_for_monte` directories. These outputs contain information used for performance evaluation and Monte Carlo result aggregation.
+
+
 
 
 ##

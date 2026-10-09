@@ -1,0 +1,9 @@
+--- Results for AirFL_DP on FashionMNIST (epsilon=0.1, clip=11.0) ---
+
+mean for final-round accuracy: 0.8573028571428571
+Acc: 95% interval (lower bound): 0.8504842857142857
+Acc: 95% interval (upper bound): 0.8640114285714285
+
+mean for final-round loss: 0.39750444038140464
+Loss: 95% interval (lower bound): 0.3845026229450439
+Loss: 95% interval (upper bound): 0.40814931589991926

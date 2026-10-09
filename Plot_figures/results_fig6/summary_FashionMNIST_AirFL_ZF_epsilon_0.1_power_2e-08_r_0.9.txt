@@ -1,0 +1,9 @@
+--- Results for AirFL_ZF on FashionMNIST (epsilon=0.1, power=2e-08) ---
+
+mean for final-round accuracy: 0.8904228571428572
+Acc: 95% interval (lower bound): 0.8887457142857143
+Acc: 95% interval (upper bound): 0.89153
+
+mean for final-round loss: 0.27659815953568156
+Loss: 95% interval (lower bound): 0.2752795788895904
+Loss: 95% interval (upper bound): 0.27839997131622957

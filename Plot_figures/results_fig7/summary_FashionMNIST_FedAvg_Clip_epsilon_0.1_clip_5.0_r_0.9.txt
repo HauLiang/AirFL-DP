@@ -1,0 +1,9 @@
+--- Results for FedAvg_Clip on FashionMNIST (epsilon=0.1, clip=5.0) ---
+
+mean for final-round accuracy: 0.8775999999999999
+Acc: 95% interval (lower bound): 0.87677
+Acc: 95% interval (upper bound): 0.8781014285714286
+
+mean for final-round loss: 0.3212676150754671
+Loss: 95% interval (lower bound): 0.3207032139766235
+Loss: 95% interval (upper bound): 0.32239480215438443

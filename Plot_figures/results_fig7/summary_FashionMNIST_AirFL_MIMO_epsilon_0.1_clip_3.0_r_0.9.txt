@@ -1,0 +1,9 @@
+--- Results for AirFL_MIMO on FashionMNIST (epsilon=0.1, clip=3.0) ---
+
+mean for final-round accuracy: 0.8661085714285714
+Acc: 95% interval (lower bound): 0.8629785714285715
+Acc: 95% interval (upper bound): 0.86859
+
+mean for final-round loss: 0.3617376186953835
+Loss: 95% interval (lower bound): 0.35547539765810415
+Loss: 95% interval (upper bound): 0.3662140932036852

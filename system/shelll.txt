@@ -1,0 +1,18 @@
+# dataset
+
+python generate_FashionMNIST.py iid balance -0
+
+python generate_FashionMNIST.py noniid - pat
+
+
+# training
+
+python main.py -data FashionMNIST -algo FedAvg -did 0 -jr 0.9
+
+python main.py -data FashionMNIST -algo FedAvg_Clip -did 0 -jr 0.9 -epsilon 0.0375
+
+python main.py -data FashionMNIST -algo AirFL_ZF -did 0 -jr 0.9 -epsilon 0.1 -pow 2e-11 -t 1 -gr 2
+
+python main.py -data FashionMNIST -algo AirFL_DP -did 0 -jr 0.9 -epsilon 0.1 -pow 2e-11 -t 1 -gr 2
+
+python main.py -data FashionMNIST -algo AirFL_DP_online -did 0 -jr 0.9 -t 30 -epsilon 0.075 
